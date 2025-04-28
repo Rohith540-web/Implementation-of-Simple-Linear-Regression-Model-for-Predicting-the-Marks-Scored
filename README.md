@@ -63,7 +63,50 @@ plt.show()
 ```
 
 ## Output:
+Head:
+
+
+![Screenshot 2025-04-28 154418](https://github.com/user-attachments/assets/d942b7a6-c34d-42e4-97e4-b69a0e26ba75)
+
+
+Tail:
+
+
+![Screenshot 2025-04-28 154425](https://github.com/user-attachments/assets/40fb3d4c-a451-49f3-9391-6ac48d74eeaf)
+
+
+X value:
+
+
+![Screenshot 2025-04-28 154434](https://github.com/user-attachments/assets/581baf79-de1c-4abe-a1aa-dce878d2bfc2)
+
+
+Y value:
+
+
+![Screenshot 2025-04-28 154440](https://github.com/user-attachments/assets/03b11c37-80ec-4f0d-8ac3-29c5ce41658b)
+
+
+y predict:
+
+
+![Screenshot 2025-04-28 154450](https://github.com/user-attachments/assets/397cc32c-30ba-4865-9111-bafb4710866c)
+
+
+y test:
+
+
+![Screenshot 2025-04-28 154457](https://github.com/user-attachments/assets/9b45f225-d3f2-4263-8df1-f42bb8de1adf)
+
+
+
+![Screenshot 2025-04-28 154506](https://github.com/user-attachments/assets/f6a730ea-27ea-465c-bf24-d1bb5f77c6cc)
+
+
+Graph:
+
 ![Screenshot 2025-03-09 200155](https://github.com/user-attachments/assets/9bb15c6d-7f3c-42ef-8f53-295e931f6268)
+
 
 ![Screenshot 2025-03-09 200211](https://github.com/user-attachments/assets/f0e5bcbf-c648-4178-a1da-933bd732dc16)
 
