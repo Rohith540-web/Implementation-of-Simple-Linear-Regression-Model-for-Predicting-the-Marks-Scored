@@ -8,14 +8,65 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-```
-1.Import the standard Libraries.
-2.Set variables for assigning dataset values.
-3.Import linear regression from sklearn.
-4.Assign the points for representing in the graph.
-5.Predict the regression for marks by using the representation of the graph.
-6.Compare the graphs and hence we obtained the linear regression for the given datas.
-```
+Step 1: Import Required Libraries
+
+Import libraries for numerical computation (numpy), data handling (pandas), plotting (matplotlib), and performance metrics from sklearn.
+
+Step 2: Load Dataset
+
+Read the CSV file student_scores.csv using pandas.read_csv().
+
+x stores the input features (hours studied).
+
+y stores the target variable (exam scores).
+
+Step 3: Split Data into Training and Testing Sets
+
+Use train_test_split() to split x and y into:
+
+x_train, y_train: for training
+
+x_test, y_test: for evaluation
+
+Use a test size of 1/3 and a fixed random_state for reproducibility.
+
+Step 4: Train the Linear Regression Model
+
+Create a LinearRegression model instance.
+
+Fit the model to the training data using regressor.fit(x_train, y_train).
+
+Step 5: Make Predictions
+
+Use regressor.predict() on x_test to get predicted scores y_pred.
+
+Step 6: Evaluate the Model
+
+Calculate evaluation metrics:
+
+MSE (Mean Squared Error)
+
+MAE (Mean Absolute Error)
+
+RMSE (Root Mean Squared Error)
+
+Print the values of MSE, MAE, and RMSE.
+
+Step 7: Visualize the Results
+
+Training Set Plot:
+
+Scatter plot of actual training data (x_train, y_train).
+
+Regression line based on predictions from training data.
+
+Test Set Plot:
+
+Scatter plot of actual test data (x_test, y_test).
+
+Regression line based on predicted test data (y_pred).
+
+
 ## Program:
 
 ```
